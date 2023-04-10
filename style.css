@@ -1,0 +1,118 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: grey;
+    width: 100%;
+}
+.hd{
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin: 0;
+    height: 100px;
+    width: 100%;
+    
+}
+.hd p:nth-child(1){
+    margin-left: 20%;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+.hd p:nth-child(2){
+    margin-left: 20%;
+    color: gray;   
+}
+
+.bio{
+    height: 1200px;
+    position: relative;
+    top: 150px;
+    background-color: white;
+    width: 70%;
+    left: 15%;
+    padding: 20px;
+    box-sizing: border-box;
+    bottom: 100px;
+    
+}
+.box{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+.image img{
+    width: 100%;
+  
+    margin: 0 auto;
+    margin-top: 60px;
+    
+}
+.pod{
+    margin-top: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: gray;
+    height: 50px;
+    text-align: center;
+    
+}
+.pod p{
+   margin-top: 10px;
+}
+
+.list{
+    left: 50%;
+    top: 1000px;
+    position: absolute;
+    height: 300px;
+}
+
+.grafija{
+    overflow: auto;
+    max-height:400px;
+    position: absolute;
+    left: 6.7%;
+    width: calc(30% - 35px);
+    
+}
+.knjiz{
+    overflow: auto;
+    max-height:400px;   
+    position: absolute;
+    width: calc(30% - 35px);
+    left:   50%;
+    
+}
+.prviButton{
+    border: none;
+    height: 50px;
+    width: 50%;
+    border-radius: 60px;
+    background-color: black;
+    color: white;
+}
+.drugiButton{
+    height: 50px;
+    width: 50%;
+    border: none;
+    background-color: black;
+    color: white;
+    background: linear-gradient(to right, black, grey);
+}
+.book{
+   
+    width: 40%;
+    position: absolute;
+    top: 80%;
+}
+.book img{
+    width: 100%;
+}
+
